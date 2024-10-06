@@ -1,0 +1,15 @@
+export { default as IconBar } from "./IconBar";
+export { default as IconPlay } from "./IconPlay";
+export { default as IconComment } from "./IconComment";
+export { default as IconOrder } from "./IconOrder";
+export { default as IconStudy } from "./IconStudy";
+export { default as IconUser } from "./IconUser";
+export { default as IconSearch } from "./IconSearch";
+export { default as IconStar } from "./IconStar";
+export { default as IconEye } from "./IconEye";
+export { default as IconCube } from "./IconCube";
+export { default as IconSetting } from "./IconSetting";
+export { default as IconEdit } from "./IconEdit";
+export { default as IconDelete } from "./IconDelete";
+export { default as IconPlus } from "./IconPlus";
+export { default as IconArrowLeft } from "./IconArrowLeft";

@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+@layer base {
+  body {
+    @apply bg-gray-100 dark:bg-grayDarkest dark:text-white;
+  }
+}
+
+@layer components {
+  .svg-animation {
+    stroke-dashoffset: 1000;
+    stroke-dasharray: 1000;
+    animation: dash 7s linear forwards;
+  }
+
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+}
